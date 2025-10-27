@@ -1,0 +1,40 @@
+﻿<Window x:Class="_13_Lab_Charp_ISP_233.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_13_Lab_Charp_ISP_233"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.516,0.509">
+        <!--<Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>-->
+
+        <Grid x:Name="myGrid"/>
+        <!--<Button Content="A" HorizontalAlignment="Left" 
+       Margin="29,10,0,0" VerticalAlignment="Top" Width="315" Height="77" Background="#FF1242B7" Foreground="White" FontSize="48" FontFamily="Snap ITC" Click="Button_Click" FontWeight="Bold"/>-->
+        <!--<Label Content="Hello world!" 
+               Grid.Row="1" 
+               Grid.Column="1"
+               Grid.ColumnSpan="3"/>-->
+        <Button
+        Content="B"
+        Grid.Row="2"
+        Grid.Column="4" Click="Button_Click"/>
+
+
+        <!--<Button Content="A"  Margin="214,0,0,0" Grid.Row="2" VerticalAlignment="Center" Width="176" Height="40"/>-->
+
+
+
+    </Grid>
+</Window>
